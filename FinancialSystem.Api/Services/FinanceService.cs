@@ -31,7 +31,7 @@ namespace FinancialSystem.Api.Services
             await _transactionRepository.DeleteAsync(id);
         }
 
-        public async Task<DashboardDto> GetDashboardAsync(int month, int year)
+        public async Task<DashboardDto> GetDashBoardAsync(int month, int year)
         {
             if(month < 1 || month > 12)
                 throw new ArgumentException("O mês deve estar entre 1 e 12.", nameof(month));

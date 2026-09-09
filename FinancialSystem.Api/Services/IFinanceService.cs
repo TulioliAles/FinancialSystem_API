@@ -10,7 +10,7 @@ namespace FinancialSystem.Api.Services
         Task AddTransactionAsync(Transaction t);
         Task UpdateTransactionAsync(Transaction t);
         Task DeleteTransactionAsync(int id);
-        Task<DashboardDto> GetDashboardAsync(int month, int year);
+        Task<DashboardDto> GetDashBoardAsync(int month, int year);
         Task<IEnumerable<CategoryTotalDto>> GetTotalsByCategoryAsync(int? month = null, int? year = null);
     }
 }
