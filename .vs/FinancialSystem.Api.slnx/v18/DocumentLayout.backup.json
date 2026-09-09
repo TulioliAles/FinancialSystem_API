@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|c:\\users\\tulioli\\dev\\financialsystem.api\\financialsystem.api\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|solutionrelative:financialsystem.api\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|c:\\users\\tulioli\\dev\\financialsystem.api\\financialsystem.api\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|solutionrelative:financialsystem.api\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|c:\\users\\tulioli\\dev\\financialsystem.api\\financialsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|solutionrelative:financialsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|c:\\users\\tulioli\\dev\\financialsystem.api\\financialsystem.api\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|solutionrelative:financialsystem.api\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,7 +32,7 @@
               "RelativeDocumentMoniker": "FinancialSystem.Api\\Program.cs",
               "ToolTip": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\FinancialSystem.Api\\Program.cs",
               "RelativeToolTip": "FinancialSystem.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-08T18:30:15.238Z",
               "EditorCaption": ""
@@ -44,27 +40,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\FinancialSystem.Api\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "FinancialSystem.Api\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\FinancialSystem.Api\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "FinancialSystem.Api\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwB0AAABWAAAAAAAAAA==",
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\FinancialSystem.Api\\Repositories\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "FinancialSystem.Api\\Repositories\\TransactionRepository.cs",
+              "ToolTip": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\FinancialSystem.Api\\Repositories\\TransactionRepository.cs",
+              "RelativeToolTip": "FinancialSystem.Api\\Repositories\\TransactionRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwDoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T18:29:39.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\FinancialSystem.Api\\Repositories\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "FinancialSystem.Api\\Repositories\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\FinancialSystem.Api\\Repositories\\ICategoryRepository.cs",
-              "RelativeToolTip": "FinancialSystem.Api\\Repositories\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T18:25:29.516Z",
+              "WhenOpened": "2026-09-08T19:09:54.619Z",
               "EditorCaption": ""
             }
           ]

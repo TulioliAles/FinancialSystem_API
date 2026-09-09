@@ -5,7 +5,7 @@ namespace FinancialSystem.Api.Repositories
     public interface ITransactionRepository
     {
         Task<IEnumerable<Transaction>> GetAllAsync();
-        Task<IEnumerable<Transaction>> GetbyIdAsync(int id);
+        Task<Transaction?> GetByIdAsync(int id);
         Task<int> AddAsync(Transaction t);
         Task<int> UpdateAsync(Transaction t);
         Task<int> DeleteAsync(int id);
