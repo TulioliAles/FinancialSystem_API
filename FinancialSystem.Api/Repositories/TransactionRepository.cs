@@ -16,19 +16,19 @@ namespace FinancialSystem.Api.Repositories
 
         private IDbConnection CreateConnection() => new SqlConnection(_connectionString);
 
-        public Task<int> AddAsync(Transaction t)
+        public async Task<int> AddAsync(Transaction t)
         {
             using var conn = CreateConnection();
             var sql = @"INSERT INTO Transactions (Type, CategoryId, Description, Amount, Date)
                         VALUES(@Type, @CategoryId, @Description, @Amount, @Date)";
-            return conn.ExecuteAsync(sql, t);
+            return await conn.ExecuteAsync(sql, t);
         }
 
-        public Task<int> DeleteAsync(int id)
+        public async Task<int> DeleteAsync(int id)
         {
             using var conn = CreateConnection();
-            var sql = "SELECT FROM Transactions WHERE Id = @Id";
-            return conn.ExecuteAsync(sql, new { Id = id });
+            var sql = "DELETE FROM Transactions WHERE Id = @Id";
+            return await conn.ExecuteAsync(sql, new { Id = id });
         }
 
         public async Task<IEnumerable<Transaction>> GetAllAsync()
@@ -38,14 +38,14 @@ namespace FinancialSystem.Api.Repositories
             return await conn.QueryAsync<Transaction>(sql);
         }
 
-        public async Task<Transaction> GetbyIdAsync(int id)
+        public async Task<Transaction> GetByIdAsync(int id)
         {
             using var conn = CreateConnection();
             var sql = "SELECT * FROM Transactions WHERE Id = @Id";
             return await conn.QueryFirstOrDefaultAsync<Transaction>(sql, new { Id = id });
         }
 
-        public Task<int> UpdateAsync(Transaction t)
+        public async Task<int> UpdateAsync(Transaction t)
         {
             using var conn = CreateConnection();
             var sql = @"UPDATE Transactions SET
@@ -56,7 +56,7 @@ namespace FinancialSystem.Api.Repositories
                           Date = @Date
                         WHERE Id = @Id";
 
-            return conn.ExecuteAsync(sql, t);
+            return await conn.ExecuteAsync(sql, t);
         }
     }
 }

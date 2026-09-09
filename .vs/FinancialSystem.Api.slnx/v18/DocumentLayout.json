@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|c:\\users\\tulioli\\dev\\financialsystem.api\\financialsystem.api\\services\\financeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|solutionrelative:financialsystem.api\\services\\financeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|c:\\users\\tulioli\\dev\\financialsystem.api\\financialsystem.api\\repositories\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|solutionrelative:financialsystem.api\\repositories\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|c:\\users\\tulioli\\dev\\financialsystem.api\\financialsystem.api\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AAEF33-C02B-DAE3-339B-735240B85765}|FinancialSystem.Api\\FinancialSystem.Api.csproj|solutionrelative:financialsystem.api\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 319,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ITransactionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\FinancialSystem.Api\\Repositories\\ITransactionRepository.cs",
-              "RelativeDocumentMoniker": "FinancialSystem.Api\\Repositories\\ITransactionRepository.cs",
-              "ToolTip": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\FinancialSystem.Api\\Repositories\\ITransactionRepository.cs",
-              "RelativeToolTip": "FinancialSystem.Api\\Repositories\\ITransactionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T23:53:03.66Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -40,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FinanceService.cs",
-              "DocumentMoniker": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\FinancialSystem.Api\\Services\\FinanceService.cs",
-              "RelativeDocumentMoniker": "FinancialSystem.Api\\Services\\FinanceService.cs",
-              "ToolTip": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\FinancialSystem.Api\\Services\\FinanceService.cs",
-              "RelativeToolTip": "FinancialSystem.Api\\Services\\FinanceService.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAiwGQAAAAbAAAAAAAAAA==",
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\FinancialSystem.Api\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "FinancialSystem.Api\\Controllers\\TransactionsController.cs",
+              "ToolTip": "C:\\Users\\Tulioli\\dev\\FinancialSystem.Api\\FinancialSystem.Api\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "FinancialSystem.Api\\Controllers\\TransactionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T23:37:32.552Z",
+              "WhenOpened": "2026-09-09T13:21:30.917Z",
               "EditorCaption": ""
             }
           ]
